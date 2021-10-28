@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    
+}
+.calculator{
+    width: 24rem;
+    height: 40rem;
+    padding-left: 1rem;
+    background-color: black;
+}
+.calculator-items{
+    display: grid;
+    grid-template: repeat(4, 1fr);
+    grid-template-rows: repeat(8,1fr);
+    grid-template-areas: 'item-1 item-2 item-2 item-2'
+                            'item-1 item-3 item-3 item-3'
+                            'item-1 item-4 item-4 item-4'
+                            'item-5 item-6 item-7 item-8'
+                            'item-9 item-10 item-11 item-12'
+                            'item-13 item-14 item-15 item-16'
+                            'item-17 item-18 item-19 item-20'
+                            'item-21 item-21 item-22 item-23'
+    ;
+    grid-gap: 1rem;
+}
+.clc-itm{
+    width: 4rem;
+    height: 4rem;
+    color: white;
+    padding: 0.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.clc-itm:hover{
+    opacity: 0.5;
+}
+.reset{
+    background-color: #A4A4A4;
+    color: black;
+    font-size: 2rem; 
+}
+.process{
+    background-color: #FF9834 ;
+    font-size: 2rem;
+}
+.number{
+    background-color: #363636;
+    font-size: 2rem;
+}
+.result{
+    color: white;  
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 1rem;
+    font-size: 3rem;
+    width: 15rem;
+    background-color: black;
+    border: none;
+}
+.result:focus{
+    outline: none;
+}
+.calculator-item-1{
+    grid-area: item-1;
+}
+.calculator-item-2{
+    grid-area: item-2;
+}
+.calculator-item-3{
+    grid-area: item-3;
+    opacity: 0.5;
+    font-size: 2rem;
+}
+.calculator-item-4{
+    grid-area: item-4;
+}
+.calculator-item-5{
+    grid-area: item-5;
+}
+.calculator-item-6{
+    grid-area: item-6;
+}
+.calculator-item-7{
+    grid-area: item-7;
+}
+.calculator-item-8{
+    grid-area: item-8;
+}
+.calculator-item-9{
+    grid-area: item-9;
+}
+.calculator-item-10{
+    grid-area: item-10;
+}
+.calculator-item-11{
+    grid-area: item-11;
+}
+.calculator-item-12{
+    grid-area: item-12;
+}
+.calculator-item-13{
+    grid-area: item-13;
+}
+.calculator-item-14{
+    grid-area: item-14;
+}
+.calculator-item-15{
+    grid-area: item-15;
+}
+.calculator-item-16{
+    grid-area: item-16;
+}
+.calculator-item-17{
+    grid-area: item-17;
+}
+.calculator-item-18{
+    grid-area: item-18;
+}
+.calculator-item-19{
+    grid-area: item-19;
+}
+.calculator-item-20{
+    grid-area: item-20;
+}
+.calculator-item-21{
+    grid-area: item-21;
+    width: 10rem;
+    border-radius: 30px;
+}
+.calculator-item-22{
+    grid-area: item-22;
+}
+.calculator-item-23{
+    grid-area: item-23;
+}
+
+
+
+
+/* .portfolio-items{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    grid-template-areas: 'item-1 item-2 item-3 item-3'
+                         'item-1 item-4 item-5 item-6'
+                         'item-7 item-7 item-8 item-6' ;
+} */
