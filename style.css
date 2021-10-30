@@ -142,15 +142,3 @@
 .calculator-item-23{
     grid-area: item-23;
 }
-
-
-
-
-/* .portfolio-items{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: auto;
-    grid-template-areas: 'item-1 item-2 item-3 item-3'
-                         'item-1 item-4 item-5 item-6'
-                         'item-7 item-7 item-8 item-6' ;
-} */
