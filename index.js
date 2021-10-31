@@ -1,6 +1,7 @@
 //number
 
 
+
 const zero = document.querySelector(".calculator-item-21");
 const one = document.querySelector(".calculator-item-17");
 const two = document.querySelector(".calculator-item-18");
