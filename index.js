@@ -30,7 +30,7 @@ zero.addEventListener("click", () => {
 });
 one.addEventListener("click", () => {
   line1.innerHTML += one.innerText;
-});
+}); 
 two.addEventListener("click", () => {
   line1.innerHTML += two.innerText;
 });
